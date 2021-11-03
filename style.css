@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+*{
+    font-family: Open Sans;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+    padding: 0 30px;
+    box-shadow: 0px 1px 20px rgba(159, 159, 159, 0.65);
+    position: relative;
+    top: 0;
+}
+
+.menu-header{
+    display: flex;
+    justify-content: space-around;
+    color:#777777;
+}
+
+.menu-header h2{
+    margin: 25px;
+    cursor: pointer;
+}
+
+section{
+    display: flex;
+    width: 100vw;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.faixa-desconto{
+    justify-content: center;
+    color: white;
+    background-color: #C2185B;
+    position: relative;
+    top: 0;
+}
+
+h1{
+    text-align: center;
+    font-size: 35px;
+    color: #575757;
+    font-weight: 900;
+}
+
+.formulario{
+    width: 100%;
+    margin: 10%;
+}
+
+#nome{
+    width: 100%;
+    margin-bottom: 2%;
+}
+
+#email{
+    width: 100%;
+    margin-bottom: 2%;
+}
+
+#telefone{
+    width: 100%;
+    margin-bottom: 2%;
+}
+
+#integral-8h{
+    margin-right: 5%;
+}
+
+#half-4h{
+    margin-right: 5%;
+
+}
+
+#r-email{
+  margin-left: 10%
+}
+
+#r-ligacao{
+  margin-left: 10%
+}
+
+#r-whatsapp{
+  margin-left: 10%
+}
+
+.texto-lateral{
+    width: 100%;
+    margin: 10%;
+}
+
+#button-submit{
+    font-size: 20px;
+    list-style: none;
+    width: 100%;
+    padding: 5px;
+    margin-top: 5%;
+    background-color: #C2185B;
+    color: white;
+    border: none;
+    box-shadow: 0px 1px 20px rgba(159, 159, 159, 0.65);
+    font-weight: bolder;
+    transition: 3s;
+}
+
+#button-submit:hover{
+    background-color: white;
+    color: #C2185B;
+}
+
+footer{
+    background-color: #C2185B;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-footer{
+    display: block;
+    flex-direction: column;
+}
+
+.logo-footer p{
+    text-align: center;
+    color: white;
+    font-size: 14px;
+}
+
+.footer-options{
+    display: flex;
+    color: white;
+}
+
+.column1{
+    margin-right: 30vh;
+}
+
+.column1 h5{
+    margin: 5%;
+}
+
+.column2{
+    margin-right: 40vh;
+}
+
+.column2 h5{
+    margin: 5% 0;
+}
